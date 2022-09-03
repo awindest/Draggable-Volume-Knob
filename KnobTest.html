@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--                                  
+╭━━╮╱╱╱╱╭╮╱╱╱╱╱╭╮╱╭╮╱╱╱╱╱╭╮            ━╮ ╭━
+╰┫┣╯╱╱╱╱┃┃╱╱╱╱╭╯╰╮┃┃╱╱╱╱╱┃┃             | |
+╱┃┃╭━╮╭━╯┣━━┳━┻╮╭╯┃┃╱╱╭━━┫╰━┳━━╮       ╱ o \
+╱┃┃┃╭╮┫╭╮┃┃━┫━━┫┃╱┃┃╱╭┫╭╮┃╭╮┃━━┫      ╱_____\
+╭┫┣┫┃┃┃╰╯┃┃━╋━━┃╰╮┃╰━╯┃╭╮┃╰╯┣━━┃     ╱    o  \  
+╰━━┻╯╰┻━━┻━━┻━━┻━╯╰━━━┻╯╰┻━━┻━━╯    (__o______)  
+
+Yet another science experiment from Indest Labs.
+
+Recommend viewing in Visual Source Code.
+-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Knob test for Knob Object</title>
+    <meta name="description"
+    content="Beautiful Work done by Kevin Lam">
+
+    <link rel="stylesheet" href="Knob.css">
+</head>
+
+<body>
+  <div id="wrapper">   </div>
+
+    <!-- too many divs but it works! -->
+    <!-- <div id="funKnobCaption"></div> -->
+
+    <div class="knob-surround"></div>
+    <div id="knob" class="knob"></div>
+    <span class="min">Min</span>
+    <span class="max">Max</span>
+    <div id="tickContainer"></div>
+    <!-- <div>Insert/Delete</div>
+    <div class="volumeValueIndicator"></div>
+    <div class="unitsCaption"></div> -->
+
+
+  <!-- Attributions:
+      Javascript written by https://www.quora.com/profile/Kevin-Lam-15:
+      Kevin Lam of "https://www.ztransitions.com"
+      Original HTML/CSS code forked from <a href="https://twitter.com/blucube">Ed Hicks's:
+        "https://codepen.io/blucube/pen/cudAz">
+      Original HTML/CSS example: "http://dribbble.com/shots/753124-Volume-Knob"
+      Original volume knob graphic design: "https://twitter.com/rickss" by Ricardo Salazar
+      Font used for the labels is https://www.myfonts.com/products/light-unison-pro-36726
+      -->
+</body>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="./Knob.js"></script>
+<script>
+  const knob = new Knob('#wrapper')
+  // const knob2 = new Knob('#wrapper2')
+  // need title, caption, initialValueIndicator, sub-caption as arguments
+
+</script>
+</html>
